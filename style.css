@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+.html{
+    box-sizing: border-box;
+}
+header{
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+*::before
+*::after{
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.shapka_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AHRD{
+    display: flex;
+
+}
+.nav_link{
+    text-align: center;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3A3A3A;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+/* HEADER END */
+
+/*BODY Start*/
+
+.BODY{
+    margin-top: 0px;
+}
+.body_wrapper{
+    display: flex;
+    align-items: center;
+}
+.body_info{
+    width: 50%;
+}
+.body_text{
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    color: #7171FF;
+}
+.body_paragraph{
+    margin-bottom: 30px;
+}
+.intro_icons{
+    display: flex;
+}
+.body_icon{
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+.body_button{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+width: 324px;
+height: 56px;
+left: 348px;
+top: 665px;
+/* gradient_ */
+background: linear-gradient(100.72deg, #C4CDFF 5.58%, #7171FF 54.44%, #1C1C9D 95.26%);
+border-radius: 46px;
+border: none;
+}
+.body_image{
+    width: 50%;
+}
+/* F1 start */
+
+.F1_background{
+    background: #EDEDED;}
+
+.F1_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.F1F{
+text-align: center;
+margin-bottom: 56px;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+/* Main txt */
+color: #3A3A3A;
+
+}
+.F1F_block{
+    margin: 0 auto;
+}
+.f1content{
+margin-top: 26px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.cryptos{
+    display: flex;
+    margin-bottom: 48px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.crypto_icon{
+    flex-wrap: nowrap;
+    justify-self: start;
+}
+/* Page 2 start */
+.p2{
+    padding: 18px 0;
+}
+.page2{
+    padding: 36px 0px 36px;
+    background: #fff;
+}
+.wrapper2{
+    gap: 40px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.About{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+/* Main txt */
+color: #3A3A3A;
+}
+.it_space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.it{
+    width: 100%;
+    grid-row: 1;
+    max-width: 157px;
+    text-align: center;
+}
+.SAS{
+    justify-content: space-evenly;
+    display: flex;
+}
+/* <!-- Puprle Block Start --> */
+.purple { 
+    background: linear-gradient(259.1deg, #1C1C9D 0%, #7171FF 35.3%, #C4CDFF 101.76%);
+    max-width: 1920px;
+ }
+.background_purple {
+    display: flex;   
+    align-items: center; 
+ }
+  .purple_about{
+    width: 50%;
+  }
+ .Earn { 
+    font-style: normal;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+    
+    /* Background */
+    color: #FFFFFF;
+ }
+ .purple3 { 
+     margin: 15px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 24px;
+     line-height: 150%;
+     /* or 36px */
+     
+     color: #FFFFFF;  
+    }
+ .bodyicon { 
+    margin: 51px 24px 50px 0;
+ }
+ .body_buttonp { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: transparent;
+    width: 324px;
+    height: 56px;
+    left: 348px;
+    top: 665px;
+    border-radius: 46px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(5px 5px 20px rgba(28, 28, 157, 0.4));
+ }
+ .purple_img {
+     padding: 0px 0px 0px 229px;
+ }
+ /* Purple End */
+ .uniqueness{
+     margin-top: 100px;
+     margin-bottom: 55px;
+ }
+.background-u {
+flex-wrap: nowrap;
+ }
+ .ucontainer{
+    justify-self: auto;
+ }
+.uni-head { 
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3A3A3A;
+}
+.ucontainer {
+    display: flex;
+    align-items: center;
+ }
+.unique-img { 
+    margin-top: 64px;
+}
+.unique-text-icon { 
+    display: flex;
+}
+.images-of-u { 
+    padding: 169px 56px 48px 168px;
+}
+.unique-icon { 
+    margin-right: 56px;
+    margin-bottom: 48px;
+}
+ .unique-text{
+    width: 500px;
+    height: 102px;
+    left: 948px;
+    top: 439px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    /* Main txt */
+    color: #3A3A3A;
+ }
+ /* Unique end */
+ .chain { 
+     margin-top: 100px;
+ }
+.chain-local {
+    display: flex;
+    align-items: center;
+ }
+.container-chain { 
+    width: 50%;
+}
+.all-li{
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.chain-header { 
+    width: 290px;
+    height: 106px;
+    left: 348px;
+    top: 3071px;    
+}
+.chain-pints { 
+    width: 600px;
+    height: 44px;
+    left: 348px;
+    top: 3201px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    /* Main txt */
+    color: #3A3A3A;
+}
+.chain-img { 
+    width: 50%;
+    margin-left: 190px;
+}
+/* Chain End */
+/* Black Start */
+.black {
+    width: 1920px;
+    height: 960px;
+    left: 0px;
+    top: 3659px;
+    /* Main txt */
+    background: #3A3A3A;
+ }
+.black-local { 
+}
+/* Black End */
+/* Partners Start */
+.Partners{
+    width: 1920px;
+    height: 480px;
+    margin: 0 auto;
+}
+.Partners-background {
+    background: #F5F5F5;
+ }
+.Partners-local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+.Partners-content { 
+    margin-top: 26px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Partners-header { 
+    margin: 0 auto;
+    margin-top: 100px;
+}
+    
+.part-header { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #585858;
+}
+.Partner-icon { 
+    display: flex;
+    margin-bottom: 71.56px;
+    margin-top: 53px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Partner-icon2 { 
+    display: flex;
+    margin-bottom: 108px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.partners-icon { 
+}
+/* Partners End */
+/* Snake Start */
+
+/* Snake End */
